@@ -1,0 +1,38 @@
+{
+	"name": "hsingyue/urlscanner",
+	"description": "check error url through scaning every urls",
+	"keywords": ["url", "scanner", "csv"],
+	"homepage": "http://laravelacademy.org",
+	"type": "library",
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=7.0.0",
+		"guzzlehttp/guzzle": ">=6.3.0"
+	},
+	"license": "MIT",
+	"authors": [{
+		"name": "Hsing Yue",
+		"email": "hsingyue@126.com"
+	}],
+	"support": {
+		"email": "hsingyue@126.com"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~4.3"
+	},
+	"suggest": {
+		"league/csv": "~6.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Hsingyue\\Urlscanner\\": "src/"
+		}
+	},
+	"repositories": {
+   		"packagist": {
+        		"type": "composer",
+        		"url": "https://packagist.phpcomposer.com"
+    		}
+	}
+
+}
